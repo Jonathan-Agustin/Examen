@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arbol.jpg" />
+    <None Remove="facebook.png" />
+    <None Remove="google.jpg" />
+    <None Remove="instagram.jpg" />
+    <None Remove="Registro.png" />
+    <None Remove="twiter.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="arbol.jpg" />
+    <Resource Include="facebook.png" />
+    <Resource Include="google.jpg" />
+    <Resource Include="instagram.jpg" />
+    <Resource Include="Registro.png" />
+    <Resource Include="twiter.png" />
+  </ItemGroup>
+
+</Project>
